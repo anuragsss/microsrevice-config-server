@@ -5,3 +5,8 @@ server :
 spring:
   application:
     name: CATALOG-SRVC
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
+      database: AS-DB
